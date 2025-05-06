@@ -1,0 +1,298 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+}
+
+
+header{
+    display: flex;
+    justify-content: left;
+    margin-left: 50px;
+    /* position:fixed;
+    top: 0;
+    bottom: 0;
+    z-index: 5;   */
+ }
+
+ nav{
+    margin-top: 30px; 
+ }
+
+.logohaut{
+    margin-right: 15px;
+}
+
+ a{
+    text-decoration: none;
+    /* color: rgb(227, 227, 21); */
+    color: black;
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: smaller;
+}
+
+.margelienhaut:hover{
+    border-bottom: 2px solid red;
+}
+
+.margelienhaut{
+    margin-left: 5px;
+}
+
+/* menu 1ere section */
+
+.section1{
+    width: auto;
+    height: 200px;
+    background-color: rgb(243, 61, 61);
+    justify-items: center;
+    margin-top: 100px;
+}
+
+.commandez{
+     padding: 50px;
+}
+
+.maint{
+    color: white;
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.click2{
+    color: white;
+    background-color: black;
+    border: 1px solid black;
+    width: 150px;
+    padding: 15px;
+    margin-left: 35px;
+}
+
+.blanc{
+    color: white;
+    margin-left: 10px;
+}
+
+/* menu 2e section */
+
+.section2{
+    margin-top: -55px;
+    background-color: rgb(217, 204, 187);
+}
+
+.menuliste{
+     
+    background-color: white;
+    margin: auto;
+    width: 800px;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.menu{
+    margin-left: 140px;
+     padding-top: 10px;
+     font-size: 1.5em;
+}
+
+.nos{
+    margin-left: 140px;
+    margin-bottom: 10px;
+    margin-top: -25px;
+}
+
+.logo{
+     padding-top: 50px;
+    margin: auto;
+    width: 80px;
+}
+
+.entre{
+    font-weight: bold;
+    text-decoration: underline red 2px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.plats{
+    font-weight: bold;
+    text-decoration: underline red 2px;
+    margin-top: 20px;
+     
+}
+
+/* .jiaozi{
+    padding: 20px;
+    margin: auto;
+    width: 400px;
+    margin-left: 270px;
+    font-weight: bolder;
+}
+
+.raviolis{
+    padding: 5px;
+    margin: auto;
+    width: 400px;
+    margin-left: 260px;
+}
+
+.tofu{
+    padding: 5px;
+    margin: auto;
+    width: 200px;
+    margin-left: 360px;
+    font-weight: bolder;
+}
+
+.taii{
+    padding: 5px;
+    margin: auto;
+    width: 400px;
+    margin-left: 330px;
+     
+}
+
+.zia{
+    padding: 5px;
+    margin: auto;
+    width: 400px;
+    margin-left: 320px;
+    font-weight: bolder;
+}
+
+.délicats{
+    padding: 5px;
+    margin: auto;
+    width: 400px;
+    margin-left: 280px;
+     
+}
+
+.plats{
+    font-weight: bold;
+    border-bottom: 2px solid red;
+    padding: 5px;
+    width: 36px;
+    margin-top: 20px;
+    margin-left: 370px;
+} */
+
+
+/* .boissons{
+    font-weight: bold;
+    border-bottom: 2px solid red;
+    padding: 5px;
+    width: 80px;
+    margin-top: 20px;
+    margin-left: 370px;
+    
+    
+} */
+/* text-decoration: underline red 5px; */
+
+/* .biang{
+    margin-top: 10px;
+    margin-left: 270px;
+    font-weight: bolder;
+}
+
+.epaisses{
+    margin-top: 10px;
+    margin-left: 210px; 
+}
+
+.soupe{
+    margin-top: 10px;
+    margin-left: 310px;
+    font-weight: bolder;
+}
+
+.bouillon{
+    margin-top: 10px;
+    margin-left: 240px;
+    
+}
+
+.sésame{
+    margin-top: 10px;
+    margin-left: 310px;
+    font-weight: bolder;
+}
+
+.sauce{
+    margin-top: 10px;
+    margin-left: 280px; 
+}
+
+
+.beer{
+    margin-top: 10px;
+    margin-left: 380px;
+    font-weight: bolder;
+}
+
+.tea{
+    margin-left: 350px;
+    font-weight: bolder;
+    margin-top: 10px;
+}
+.the{
+    margin-left: 380px;
+    font-weight: bolder;
+    margin-top: 10px;
+    padding-bottom: 100px;
+} */
+
+
+
+    /* 3e section */
+.section3{
+    margin-top: 50px;
+    margin-left: 100px;
+    padding-bottom: 100px;
+    margin-bottom: 0%;
+}
+
+em{
+    color: rgb(233, 100, 34);
+    font-style: normal;
+ }
+
+span{
+    font-weight: bold;
+}
+
+.adresse3{
+    margin: auto;
+    width: 150px;
+    text-decoration: underline red 3px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.p1{
+    margin: auto;
+    width: 800px;
+}
+    
+.p2{
+    margin: auto;
+    width: 520px;
+}
+
+/* pied de page */
+footer{
+    background-color: black;
+    display: flex;
+    justify-content: right;
+    padding: 50px;
+}
+
+.position, .facebook{
+    margin-left: 20px;
+}
+ 
+.position{
+    margin-left: 20px;
+    border-radius: 50%;
+}
